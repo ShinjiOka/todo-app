@@ -11,14 +11,14 @@ export const addTodo = (text) => {
 
 export const deleteTodo = (id) => {
     return {
-        type: ADD_TODO,
+        type: DELETE_TODO,
         id
     }
 }
 
 export const toggleTodoCompleted = (id) => {
     return {
-        type: ADD_TODO,
+        type: TOGGLE_TODO_COMPLETED,
         id
     }
 }
