@@ -7,6 +7,5 @@ describe('store/index.jsのテスト', () => {
             todos: [],
             visibleFilter: SHOW_ALL
         });
-        // console.log(store.getState());
     });
 });
