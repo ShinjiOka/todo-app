@@ -32,6 +32,6 @@ export const todoReducer = (state = [], action) => {
             })
     
         default:
-            break;
+            return state;
     }
 }
